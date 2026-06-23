@@ -10,13 +10,25 @@
 
 
 import { defineConfig } from 'vite'
-import { TanStackRouterVite } from '@tanstack/router-plugin/vite' // <-- Ubah baris ini
+import { TanStackRouterVite } from '@tanstack/router-plugin/vite'
 import react from '@vitejs/plugin-react'
 import tsconfigPaths from 'vite-tsconfig-paths'
 
 export default defineConfig({
   plugins: [
-    TanStackRouterVite(), // <-- Jalankan fungsi ini
+    // Masukkan opsi konfigurasi rahasia Nitro ke dalam argumen plugin ini
+    TanStackRouterVite({
+      experimental: {
+        openAPI: false
+      },
+      externals: {
+        inline: [
+          '@tanstack/start',
+          '@tanstack/react-start',
+          '@tanstack/start-server-core'
+        ]
+      }
+    }),
     react(),
     tsconfigPaths(),
   ],
