@@ -12,9 +12,9 @@ const ease = [0.22, 1, 0.36, 1] as const;
 export const Route = createFileRoute("/services")({
   head: () => ({
     meta: [
-      { title: "Layanan & Produk — KidoTech" },
-      { name: "description", content: "Layanan KidoTech: pengembangan website & web app, project IoT, IT troubleshooting, dan managed services." },
-      { property: "og:title", content: "Layanan & Produk — KidoTech" },
+      { title: "Layanan & Produk — PT Kidotech Inovasi Nusantara" },
+      { name: "description", content: "Layanan PT Kidotech Inovasi Nusantara: pengembangan website & web app, project IoT, IT troubleshooting, dan managed services." },
+      { property: "og:title", content: "Layanan & Produk — PT Kidotech Inovasi Nusantara" },
       { property: "og:description", content: "Pengembangan website, IoT, troubleshooting, dan managed IT services." },
     ],
   }),

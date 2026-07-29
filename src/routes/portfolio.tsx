@@ -12,10 +12,10 @@ const ease = [0.22, 1, 0.36, 1] as const;
 export const Route = createFileRoute("/portfolio")({
   head: () => ({
     meta: [
-      { title: "Portfolio — KidoTech" },
-      { name: "description", content: "Lihat berbagai project teknologi yang telah dikerjakan KidoTech: web app, IoT, dashboard analytics, dan banyak lagi." },
-      { property: "og:title", content: "Portfolio — KidoTech" },
-      { property: "og:description", content: "Project-project nyata dari klien KidoTech." },
+      { title: "Portfolio — PT Kidotech Inovasi Nusantara" },
+      { name: "description", content: "Lihat berbagai project teknologi yang telah dikerjakan PT Kidotech Inovasi Nusantara: web app, IoT, dashboard analytics, dan banyak lagi." },
+      { property: "og:title", content: "Portfolio — PT Kidotech Inovasi Nusantara" },
+      { property: "og:description", content: "Project-project nyata dari klien PT Kidotech Inovasi Nusantara." },
     ],
   }),
   loader: ({ context }) => { context.queryClient.ensureQueryData(landingQueryOptions); },

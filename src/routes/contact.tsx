@@ -13,9 +13,9 @@ const ease = [0.22, 1, 0.36, 1] as const;
 export const Route = createFileRoute("/contact")({
   head: () => ({
     meta: [
-      { title: "Kontak — KidoTech" },
-      { name: "description", content: "Hubungi tim KidoTech untuk konsultasi project website, IoT, troubleshooting, dan managed services." },
-      { property: "og:title", content: "Kontak — KidoTech" },
+      { title: "Kontak — PT Kidotech Inovasi Nusantara" },
+      { name: "description", content: "Hubungi tim PT Kidotech Inovasi Nusantara untuk konsultasi project website, IoT, troubleshooting, dan managed services." },
+      { property: "og:title", content: "Kontak — PT Kidotech Inovasi Nusantara" },
       { property: "og:description", content: "Konsultasi gratis untuk project teknologi Anda." },
     ],
   }),

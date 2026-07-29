@@ -16,11 +16,10 @@ import { Icon } from "@/components/icon";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      {icon: "/src/assets/kidotech.png"},
-      { title: "KidoTech — Build a Technology" },
-      { name: "description", content: "KidoTech: Pengembangan website, project IoT, troubleshooting, dan managed IT services. Mitra teknologi untuk skala bisnis Anda." },
-      { property: "og:title", content: "KidoTech — Bridging Innovation and Connectivity" },
-      { property: "og:description", content: "Website, IoT, troubleshooting, dan managed services dari tim engineering yang berpengalaman." },
+      { title: "PT Kidotech Inovasi Nusantara | Solusi Teknologi & Inovasi Berkelanjutan" },
+      { name: "description", content: "PT Kidotech Inovasi Nusantara: Pengembangan website, project IoT, troubleshooting, dan managed IT services. Mitra teknologi untuk skala bisnis Anda." },
+      { property: "og:title", content: "PT Kidotech Inovasi Nusantara | Solusi Teknologi & Inovasi Berkelanjutan" },
+      { property: "og:description", content: "PT Kidotech Inovasi Nusantara: Pengembangan website, IoT, troubleshooting, dan managed services dari tim engineering yang berpengalaman." },
       { property: "og:type", content: "website" },
     ],
   }),

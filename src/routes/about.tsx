@@ -11,10 +11,10 @@ const ease = [0.22, 1, 0.36, 1] as const;
 export const Route = createFileRoute("/about")({
   head: () => ({
     meta: [
-      { title: "Tentang Kami — KidoTech" },
-      { name: "description", content: "KidoTech adalah tim engineering yang membangun produk digital, IoT, dan infrastruktur untuk bisnis modern." },
-      { property: "og:title", content: "Tentang Kami — KidoTech" },
-      { property: "og:description", content: "Tim engineering KidoTech: visi, misi, dan nilai yang membedakan kami." },
+      { title: "Tentang Kami — PT Kidotech Inovasi Nusantara" },
+      { name: "description", content: "PT Kidotech Inovasi Nusantara adalah tim engineering yang membangun produk digital, IoT, dan infrastruktur untuk bisnis modern." },
+      { property: "og:title", content: "Tentang Kami — PT Kidotech Inovasi Nusantara" },
+      { property: "og:description", content: "Tim engineering PT Kidotech Inovasi Nusantara: visi, misi, dan nilai yang membedakan kami." },
     ],
   }),
   loader: ({ context }) => { context.queryClient.ensureQueryData(landingQueryOptions); },

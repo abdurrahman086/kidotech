@@ -10,6 +10,7 @@ import {
 import { type ReactNode } from "react";
 
 import appCss from "../styles.css?url";
+import kidotechLogo from "@/assets/kidotech.png";
 
 function NotFoundComponent() {
   return (
@@ -73,11 +74,11 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "KidoTech — Bridging Innovation and Connectivity" },
-      { name: "description", content: "KidoTech: Pengembangan website, project IoT, troubleshooting, dan managed IT services." },
-      { name: "author", content: "KidoTech" },
-      { property: "og:title", content: "KidoTech — Bridging Innovation and Connectivity" },
-      { property: "og:description", content: "Website, IoT, troubleshooting, dan managed services." },
+      { title: "PT Kidotech Inovasi Nusantara | Solusi Teknologi & Inovasi Berkelanjutan" },
+      { name: "description", content: "PT Kidotech Inovasi Nusantara: Pengembangan website, project IoT, troubleshooting, dan managed IT services." },
+      { name: "author", content: "PT Kidotech Inovasi Nusantara" },
+      { property: "og:title", content: "PT Kidotech Inovasi Nusantara | Solusi Teknologi & Inovasi Berkelanjutan" },
+      { property: "og:description", content: "PT Kidotech Inovasi Nusantara: Pengembangan website, IoT, troubleshooting, dan managed services." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@kidotech" },
@@ -86,6 +87,10 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       {
         rel: "stylesheet",
         href: appCss,
+      },
+      {
+        rel: "icon",
+        href: kidotechLogo,
       },
     ],
   }),

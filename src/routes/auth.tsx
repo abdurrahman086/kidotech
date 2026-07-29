@@ -5,7 +5,7 @@ import { supabase } from "@/integrations/supabase/client";
 import kidotechLogo from "@/assets/kidotech.png";
 
 export const Route = createFileRoute("/auth")({
-  head: () => ({ meta: [{ title: "Sign in — KidoTech Admin" }, { name: "robots", content: "noindex" }] }),
+  head: () => ({ meta: [{ title: "Sign in — PT Kidotech Inovasi Nusantara" }, { name: "robots", content: "noindex" }] }),
   component: AuthPage,
 });
 
